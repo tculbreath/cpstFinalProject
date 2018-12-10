@@ -1,0 +1,8 @@
+{
+  "name": "Due-Date-Calc",
+  "version": "1.0.0",
+  "description": "Calculates the due date for a mother based on the last mesnes date",
+  "dependencies": {
+    "moments": "0.0.2"
+  }
+}

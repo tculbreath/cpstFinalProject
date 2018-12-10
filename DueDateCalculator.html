@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<!--suppress ALL -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>Due Date Calculator</title>
+    <style>
+        #DueDateCal {
+            text-align:center;
+        }
+        #head {
+            text-align:center;
+        }
+        h1 {
+            text-align: center;
+        }
+        #para-footer {
+            text-align: center;
+        }
+        p {
+            text-align: center;
+        }
+        #NextStepsButton {
+            text-align: left;
+        }
+        h2 {
+            text-align: center;
+        }
+        h3 {
+            text-align: center;
+        }
+        h4 {
+            text-align: center;
+        }
+        #CalInfoButton {
+            text-align: center;
+        }
+        body {
+            background-color: bisque;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <header id = "head">Due Date Calculator</header>
+            <h1>How Long Do Pregnancies Last?</h1>
+            <p>Non natoque urna diam potenti vel a eu tempus curae urna condimentum condimentum natoque lobortis penatibus dictum rutrum pharetra per habitasse vestibulum. Ullamcorper scelerisque enim iaculis condimentum adipiscing cras hac cubilia arcu aliquam volutpat arcu natoque primis augue dis in tristique id a parturient mi consectetur condimentum magna faucibus ridiculus risus. Pharetra cursus parturient fermentum a aliquam curabitur at at adipiscing nec cum faucibus ultricies parturient nisl volutpat integer volutpat pretium a fames a ad quam faucibus. Aenean parturient vestibulum adipiscing adipiscing justo eu diam hac scelerisque a volutpat consectetur ad blandit semper sociis diam id.</p>
+            <p id = "para=footer">For more information about the time line of pregnancy see our Next Steps page</p>
+            <input type="button" id = "NextStepsButton" onclick="location.href='NextSteps.html';" value="Next Steps"/>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <h2>What to Expect From the Due Date Calculator?</h2>
+            <p>Non natoque urna diam potenti vel a eu tempus curae urna condimentum condimentum natoque lobortis penatibus dictum rutrum pharetra per habitasse vestibulum. Ullamcorper scelerisque enim iaculis condimentum adipiscing cras hac cubilia arcu aliquam volutpat arcu natoque primis augue dis in tristique id a parturient mi consectetur condimentum magna faucibus ridiculus risus. Pharetra cursus parturient fermentum a aliquam curabitur at at adipiscing nec cum faucibus ultricies parturient nisl volutpat integer volutpat pretium a fames a ad quam faucibus. Aenean parturient vestibulum adipiscing adipiscing justo eu diam hac scelerisque a volutpat consectetur ad blandit semper sociis diam id.</p>
+            <p>For more information about how to calculate your due date see this page</p>
+            <input type="button" id = "CalInfoButton" data-week-number="" onclick="location.href='https://www.webmd.com/baby/interactive-pregnancy-tool-fetal-development';" value="WebMD Pregnancy Visual Timeline"/>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <h3 id = "head-3">Your Results Will Show Here</h3>
+            <h4 id = "head-4"> Current Date goes here</h4>
+            <h5 id = "head=5"></h5>
+        </div>
+    </div>
+</div>
+<script>
+    "use strict";
+    function calculateDueDate(e) {
+        e.preventDefault();
+        //parseInt("DateOfLastMenses")
+        //var d = new Date("DateOfLastMenses");
+        //var year = d.getFullYear();
+        //var month = d.getMonth();
+        //var day = d.getDate();
+        //var c = new Date(year, month, day + 280);
+        //console.log(d, year, month, day, c);
+        //return c;
+        let dateLastMenses = document.getElementById("DateOfLastMenses");
+        console.log(dateLastMenses.value);
+        let dueDate = moment(dateLastMenses.value, "YYYY-MM-DD").add(280, 'days').format('LL');
+        console.log(dueDate);
+        let monthsUnt = moment(dueDate, 'LL').startOf('day').fromNow();
+
+        /* let monthsUnt = moment(monthsUnt).add(-9, 'months');
+
+
+         if (monthsUnt >= (1, 'month') && monthsUnt <= (9, 'month')){
+             monthsUnts = monthsUnt - (9, 'month');
+         };
+*/
+        document.getElementById('head-3').innerHTML = 'Your due date is ' + dueDate.toString();
+        document.getElementById('head-4').innerHTML = 'You have ' + monthsUnt.toString() + ' of pregnancy left';
+    }
+
+    function listenForButtonClick(s) {
+        CalInfoButton.addEventListener('click', function(e){
+            e.preventDefault();
+            location.href="NextSteps.html#" + e.target.dataset.weeksUnt1
+        });
+    }
+
+    function listenForFormSubmission() {
+        let dueDateCal = document.getElementById("DueDateCal");
+        dueDateCal.addEventListener("submit", calculateDueDate);
+        //   let todaysDate = documment.getElementById("TodaysDate");
+        //  todaysDate.addEventListener("submit",calculateCurrentDate);
+        // dueDateCal.addEventListener('submit', function(){
+        //   document.getElementById('head-3').innerHTML = DateOfLastMenses ;
+        //});
+
+
+
+    }
+    function recordFormSubmission(e) {
+        e.preventDefault();
+        // alert("Hello" + );
+        let formResults = new FormData(this);
+        for (let pair of formResults.entries()) {
+            localStorage.setItem(pair[0], pair[1]);
+        }
+        loadFormSubmissionIntoPage();
+    }
+    function loadFormSubmissionIntoPage() {
+        let formResponse = document.getElementById('form-response');
+        for (let i = 0; i < localStorage.length; i++) {
+            let p = document.createElement("p");
+            let key = localStorage.key(i);
+            let value = localStorage.getItem(key);
+            p.innerHTML = "<strong>" + key + "</strong>: " + value;
+            formResponse.appendChild(p);
+        }
+    }
+
+    function listenForBackgroundColorPickerChange() {
+        let bgPicker = document.getElementById("bg-color-picker");
+        bgPicker.addEventListener("change", function(e) {
+            document.body.style.backgroundColor = bgPicker.value;
+        });
+    }
+
+    window.onload = () => {
+        listenForFormSubmission();
+        // loadFormSubmissionIntoPage();
+        // listenForBackgroundColorPickerChange();
+    };
+</script>
+<form id =  "DueDateCal" >
+    <div class="row">
+        <div class="col">
+            <label for = "UserName" > Please Enter Your Name</label>
+            <input id = "UserName" name = "UserName" minlength="2" maxlength="20" size="10" required/>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <label for = "DateOfLastMenses" > Please Enter the Date of the First Day of Your Last Menstrual Cycle</label>
+            <input type = "date" id = "DateOfLastMenses" name = "DateOfLastMenses" placeholder = "Date of last Menses" min="2018-01-01" max="2018-12-31" required/>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <input type="submit" value="Submit" > </input>
+        </div>
+    </div>
+</form>
+
+<script src="http://momentjs.com/downloads/moment.js"></script>
+</body>
+</html>
