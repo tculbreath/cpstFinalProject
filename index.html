@@ -2,9 +2,77 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>Homepage</title>
+    <style>
+        #head {
+            text-align:center;
+        }
+        h1 {
+            text-align:center;
+        }
+        h2 {
+            text-align: center;
+        }
+        #DueDateCalcButton {
+            text-align: center;
+        }
+        h3 {
+            text-align: center;
+        }
+        #FirstTrimesterButton {
+            text-align: center;
+        }
+        #SecondTrimesterButton {
+            text-align: center;
+        }
+        #ThirdTrimesterButton {
+            text-align: center;
+        }
+        #NextStepsButton {
+            text-align: center;
+        }
+        h4 {
+            text-align: center;
+        }
+        #QuestHelpLinkButton {
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-
+<div class="container">
+    <div class="row">
+        <div class = "col">
+            <header id = head>Welcome to Prego Helper</header>
+        </div>
+        <div class="row">
+            <div class = "col">
+                <h1>What do you Want to do Today?</h1>
+            </div>
+            <div class="row">
+                <div class="col-sm">
+                    <h2>Due Date Calculator</h2>
+                    <p>Non natoque urna diam potenti vel a eu tempus curae urna condimentum condimentum natoque lobortis penatibus dictum rutrum pharetra per habitasse vestibulum. Ullamcorper scelerisque enim iaculis condimentum adipiscing cras hac cubilia arcu aliquam volutpat arcu natoque primis augue dis in tristique id a parturient mi consectetur condimentum magna faucibus ridiculus risus. Pharetra cursus parturient fermentum a aliquam curabitur at at adipiscing nec cum faucibus ultricies parturient nisl volutpat integer volutpat pretium a fames a ad quam faucibus. Aenean parturient vestibulum adipiscing adipiscing justo eu diam hac scelerisque a volutpat consectetur ad blandit semper sociis diam id.</p>
+                    <input type="button" id = "DueDateCalcButton" onclick="location.href='DueDateCalculator.html';" value="Due Date Calculator"/>
+                </div>
+                <div class="col-sm">
+                    <h3>Next Steps</h3>
+                    <p>Non natoque urna diam potenti vel a eu tempus curae urna condimentum condimentum natoque lobortis penatibus dictum rutrum pharetra per habitasse vestibulum. Ullamcorper scelerisque enim iaculis condimentum adipiscing cras hac cubilia arcu aliquam volutpat arcu natoque primis augue dis in tristique id a parturient mi consectetur condimentum magna faucibus ridiculus risus. Pharetra cursus parturient fermentum a aliquam curabitur at at adipiscing nec cum faucibus ultricies parturient nisl volutpat integer volutpat pretium a fames a ad quam faucibus. Aenean parturient vestibulum adipiscing adipiscing justo eu diam hac scelerisque a volutpat consectetur ad blandit semper sociis diam id.</p>
+                    <input type="button" id = "FirstTrimesterButton" onclick="location.href='NextSteps.html#FirTri';" value="First Trimester"/>
+                    <input type="button" id = "SecondTrimesterButton" onclick="location.href='NextSteps.html#SecTri';" value="Second Trimester"/>
+                    <input type="button" id = "ThirdTrimesterButton" onclick="location.href='NextSteps.html#ThiTri';" value="Third Trimester"/>
+                    <input type="button" id = "NextStepsButton" onclick="location.href='NextSteps.html';" value="Next Steps"/>
+                </div>
+                <div class="col-sm">
+                    <h4>Questions & Helpful Links</h4>
+                    <p>Non natoque urna diam potenti vel a eu tempus curae urna condimentum condimentum natoque lobortis penatibus dictum rutrum pharetra per habitasse vestibulum. Ullamcorper scelerisque enim iaculis condimentum adipiscing cras hac cubilia arcu aliquam volutpat arcu natoque primis augue dis in tristique id a parturient mi consectetur condimentum magna faucibus ridiculus risus. Pharetra cursus parturient fermentum a aliquam curabitur at at adipiscing nec cum faucibus ultricies parturient nisl volutpat integer volutpat pretium a fames a ad quam faucibus. Aenean parturient vestibulum adipiscing adipiscing justo eu diam hac scelerisque a volutpat consectetur ad blandit semper sociis diam id.</p>
+                    <input type="button" id = "QuestHelpLinkButton" onclick="location.href='QuestionsHelpfulLInk.html';" value="Questions & Helpful Links"/>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 </body>
 </html>
