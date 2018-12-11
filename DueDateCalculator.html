@@ -200,24 +200,29 @@
         document.getElementById('head-3').innerHTML = 'Your due date is ' + dueDate.toString();
         document.getElementById('head-4').innerHTML = 'You have ' + monthsUnt.toString() + ' of pregnancy left';
     }
-
+    /**
+     * This function listens for the submit button to be pressed.  There is additional steps here to help change a button into a link to another page.  However, that is not functional but I don't want to remove it.  I want to figure out how this works.
+     * @param s This is listening for the submit button so it can take the weeksUnt and turn it into a link for another button
+     * @return There is no return for this function.
+     */
     function listenForButtonClick(s) {
         CalInfoButton.addEventListener('click', function(e){
             e.preventDefault();
             location.href="NextSteps.html#" + e.target.dataset.weeksUnt1
         });
     }
-
+    /**
+     * This function is extremely important because it helps the clicking of the submit button to calculate the first function that uses moments.  This function processes calculateDueDate.
+     */
     function listenForFormSubmission() {
         let dueDateCal = document.getElementById("DueDateCal");
         dueDateCal.addEventListener("submit", calculateDueDate);
-        //   let todaysDate = documment.getElementById("TodaysDate");
-        //  todaysDate.addEventListener("submit",calculateCurrentDate);
-        // dueDateCal.addEventListener('submit', function(){
-        //   document.getElementById('head-3').innerHTML = DateOfLastMenses ;
-        //});
-
     }
+
+    /**
+     * This function records the submission of the day into the page
+     * @param e this prevents default
+     */
     function recordFormSubmission(e) {
         e.preventDefault();
         // alert("Hello" + );
@@ -227,6 +232,9 @@
         }
         loadFormSubmissionIntoPage();
     }
+    /**
+     * This is the function that loads the submission into local storage
+     */
     function loadFormSubmissionIntoPage() {
         let formResponse = document.getElementById('form-response');
         for (let i = 0; i < localStorage.length; i++) {
@@ -237,14 +245,9 @@
             formResponse.appendChild(p);
         }
     }
-
-    function listenForBackgroundColorPickerChange() {
-        let bgPicker = document.getElementById("bg-color-picker");
-        bgPicker.addEventListener("change", function(e) {
-            document.body.style.backgroundColor = bgPicker.value;
-        });
-    }
-
+    /**
+     * This is the where the page listens for the submission
+     */
     window.onload = () => {
         listenForFormSubmission();
         // loadFormSubmissionIntoPage();
