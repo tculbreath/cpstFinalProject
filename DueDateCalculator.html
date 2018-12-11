@@ -162,7 +162,7 @@
 
     <div style="text-align: center;">
 
-            <a href="index.html" class="NextStepsButton" align="center">Next Steps</a>
+            <a href="NextSteps.html" class="NextStepsButton" align="center">Next Steps</a>
     </div>
 
     <div class="row">
@@ -179,12 +179,17 @@
         <div class="col">
             <h3 id = "head-3">Your Results Will Show Here</h3>
             <h4 id = "head-4"> Current Date goes here</h4>
-            <h5 id = "head=5"></h5>
         </div>
     </div>
 </div>
 <script>
     "use strict";
+
+    /**
+     * This function calculates the due date and is responsible for updatin <h3> and <h4> to show the users results
+     * @param e is to prevent defaults
+     * @document. the headers for 3 & 4 are updated to visually show the user their results.
+     */
     function calculateDueDate(e) {
         e.preventDefault();
         let dateLastMenses = document.getElementById("DateOfLastMenses");
@@ -267,6 +272,12 @@
     <div class="row">
         <div class="col">
             <a href="index.html" class="HomePage" align="center">Home Page</a>
+        </div>
+    </div>
+        <div class="center">
+            <div class = "col">
+                <img src="GoldenMom.jpg" alt ="Pregnant Art" id = "GoldMom">
+            </div>
         </div>
     </div>
 </form>
