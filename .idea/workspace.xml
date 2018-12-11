@@ -10,16 +10,15 @@
       <change afterPath="$PROJECT_DIR$/../Final/ThirdTrimester.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Practice/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Practice/Borders.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NextSteps.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cpst342f18hw1" beforeDir="false" afterPath="$PROJECT_DIR$/../cpst342f18hw1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cpst342f18hw2" beforeDir="false" afterPath="$PROJECT_DIR$/../cpst342f18hw2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cpst342f18hw4" beforeDir="false" afterPath="$PROJECT_DIR$/../cpst342f18hw4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cpst342f18hw5" beforeDir="false" afterPath="$PROJECT_DIR$/../cpst342f18hw5" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cpst342hw2-redo" beforeDir="false" afterPath="$PROJECT_DIR$/../cpst342hw2-redo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DueDateCalculator.html" beforeDir="false" afterPath="$PROJECT_DIR$/DueDateCalculator.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../quiz-work" beforeDir="false" afterPath="$PROJECT_DIR$/../quiz-work" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -41,29 +40,32 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="2" />
+          <entry key="html" value="4" />
           <entry key="json" value="1" />
+          <entry key="md" value="1" />
           <entry key="php" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="3" />
+          <entry key="HTML" value="5" />
           <entry key="JSON" value="1" />
+          <entry key="Markdown" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="416" />
+          <entry key="html" value="1251" />
           <entry key="json" value="4" />
-          <entry key="txt" value="109" />
+          <entry key="txt" value="235" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="416" />
+          <entry key="CSS" value="1" />
+          <entry key="HTML" value="1250" />
           <entry key="JSON" value="4" />
-          <entry key="PLAIN_TEXT" value="109" />
+          <entry key="PLAIN_TEXT" value="235" />
         </counts>
       </usages-collector>
     </session>
@@ -79,20 +81,41 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="467">
-              <caret line="80" column="241" selection-start-line="80" selection-start-column="241" selection-end-line="80" selection-end-column="241" />
+            <state relative-caret-position="247">
+              <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NextSteps.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="28" column="33" lean-forward="true" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="22">
+                <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DueDateCalculator.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="33" column="12" lean-forward="true" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="27" />
+            <state relative-caret-position="-1326">
+              <caret line="142" column="75" selection-start-line="142" selection-start-column="75" selection-end-line="142" selection-end-column="75" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#p#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -128,8 +151,10 @@
       <list>
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/node_modules/NextSteps.html" />
         <option value="$PROJECT_DIR$/DueDateCalculator.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/NextSteps.html" />
       </list>
     </option>
   </component>
@@ -211,7 +236,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1544481503003</updated>
-      <workItem from="1544481504443" duration="5672000" />
+      <workItem from="1544481504443" duration="10711000" />
     </task>
     <task id="LOCAL-00001" summary="Making sure it is pushing to Heroku and to my Git Hub before I copy and paste the rest of the site over.">
       <created>1544482165243</created>
@@ -227,14 +252,28 @@
       <option name="project" value="LOCAL" />
       <updated>1544482837568</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Adding style to the index and duedatecalculator pages before I copy over the next step page.">
+      <created>1544487295426</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1544487295426</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Adding style to the index and duedatecalculator pages before I copy over the next step page.">
+      <created>1544487316911</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1544487316911</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5672000" />
+    <option name="totallyTimeSpent" value="10711000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="2008" y="124" width="1936" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
@@ -264,13 +303,21 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Making sure it is pushing to Heroku and to my Git Hub before I copy and paste the rest of the site over." />
-    <option name="LAST_COMMIT_MESSAGE" value="Making sure it is pushing to Heroku and to my Git Hub before I copy and paste the rest of the site over." />
+    <MESSAGE value="Adding style to the index and duedatecalculator pages before I copy over the next step page." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding style to the index and duedatecalculator pages before I copy over the next step page." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="8" selection-start-column="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/NextSteps.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -281,22 +328,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NextSteps.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="28" column="33" lean-forward="true" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="22">
+            <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/DueDateCalculator.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="33" column="12" lean-forward="true" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="27" />
+        <state relative-caret-position="-1326">
+          <caret line="142" column="75" selection-start-line="142" selection-start-column="75" selection-end-line="142" selection-end-column="75" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#p#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="80" column="241" selection-start-line="80" selection-start-column="241" selection-end-line="80" selection-end-column="241" />
         </state>
       </provider>
     </entry>
