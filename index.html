@@ -7,15 +7,15 @@
     <title>Homepage</title>
     <style>
         #head {
+            color: firebrick;
             text-align:center;
         }
         h1 {
+            color: firebrick;
             text-align:center;
         }
         h2 {
-            text-align: center;
-        }
-        #DueDateCalcButton {
+            color: #fb9e25;
             text-align: center;
         }
         h3 {
@@ -39,6 +39,32 @@
         #QuestHelpLinkButton {
             text-align: center;
         }
+        body {
+            background-color: burlywood;
+        }
+        .DueDateCalcButton{
+            -moz-box-shadow: inset 0 1px 0 0 #fce2c1;
+            -webkit-box-shadow: inset 0 1px 0 0 #fce2c1;
+            box-shadow: inset 0 1px 0 0 #fce2c1;
+            background-color: #ffc477;
+            -moz-border-radius: 6px;
+            -webkit-border-radius: 6px;
+            border-radius: 6px;
+            border: 1px solid #eeb44f;
+            display: inline-block;
+            color: #ffffff;
+            font-family: arial,serif;
+            font-size: 15px;
+            font-weight: bold;
+            padding: 6px 24px;
+            text-decoration: none;
+            text-shadow: 1px 1px 0 #cc9f52;
+        }.DueDateCalcButton:hover {
+             background-color:#fb9e25;
+         }.DueDateCalcButton:active {
+              position:relative;
+              top:1px;
+          }
     </style>
 </head>
 <body>
@@ -54,8 +80,9 @@
             <div class="row">
                 <div class="col-sm">
                     <h2>Due Date Calculator</h2>
-                    <p>Non natoque urna diam potenti vel a eu tempus curae urna condimentum condimentum natoque lobortis penatibus dictum rutrum pharetra per habitasse vestibulum. Ullamcorper scelerisque enim iaculis condimentum adipiscing cras hac cubilia arcu aliquam volutpat arcu natoque primis augue dis in tristique id a parturient mi consectetur condimentum magna faucibus ridiculus risus. Pharetra cursus parturient fermentum a aliquam curabitur at at adipiscing nec cum faucibus ultricies parturient nisl volutpat integer volutpat pretium a fames a ad quam faucibus. Aenean parturient vestibulum adipiscing adipiscing justo eu diam hac scelerisque a volutpat consectetur ad blandit semper sociis diam id.</p>
-                    <input type="button" id = "DueDateCalcButton" onclick="location.href='DueDateCalculator.html';" value="Due Date Calculator"/>
+                    <p>Want to know when your bundle of joy will arrive?  Our Due Date Calculator can help you.  Answer two questions and receive a due date.  There is also additional information about the timeline of pregnancy on this page!</p>
+
+                    <a href="DueDateCalculator.html" class="DueDateCalcButton" >Due Date Calculator</a>
                 </div>
                 <div class="col-sm">
                     <h3>Next Steps</h3>
