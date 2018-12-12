@@ -27,7 +27,7 @@
         }
 
         h5 {
-            text-align: center;
+            text-align: left;
             color: yellow;
             font-size: 40px;}
         body{
@@ -152,14 +152,67 @@
         #words{
             font-size: 30px;
             color: red;
-            text-align: center;
+
         }
+        #words1{
+            font-size: 30px;
+            color: red;
+
+        }.HelpLinkButton{
+             -moz-box-shadow:inset 0 1px 0 0 #fce2c1;
+             -webkit-box-shadow:inset 0 1px 0 0 #fce2c1;
+             box-shadow:inset 0 1px 0 0 #fce2c1;
+             background-color:#ffc477;
+             -moz-border-radius:6px;
+             -webkit-border-radius:6px;
+             border-radius:6px;
+             border:1px solid #eeb44f;
+             display:inline-block;
+             color:#ffffff;
+             font-family:arial,serif;
+             font-size:15px;
+             font-weight:bold;
+             padding:6px 24px;
+             text-decoration:none;
+             text-shadow:1px 1px 0 #cc9f52;
+         }.HelpLinkButton:hover {
+              background-color:#fb9e25;
+          }.HelpLinkButton:active {
+               position:relative;
+               top:1px;
+           }
+        .DueDateCalcButton{
+            -moz-box-shadow: inset 0 1px 0 0 #fce2c1;
+            -webkit-box-shadow: inset 0 1px 0 0 #fce2c1;
+            box-shadow: inset 0 1px 0 0 #fce2c1;
+            background-color: firebrick;
+            -moz-border-radius: 6px;
+            -webkit-border-radius: 6px;
+            border-radius: 6px;
+            border: 1px solid darkred;
+            display: inline-block;
+            color: #ffffff;
+            font-family: arial,serif;
+            font-size: 15px;
+            font-weight: bold;
+            padding: 6px 24px;
+            text-decoration: none;
+            text-shadow: 1px 1px 0 firebrick;
+        }.DueDateCalcButton:hover {
+             background-color:darkred;
+         }.DueDateCalcButton:active {
+              position:relative;
+              top:1px;
+          }
 
     </style>
 </head>
 <body>
 <header>Helpful Links & Recommended Sites</header>
-
+<div class="row">
+    <a href="DueDateCalculator.html" class="DueDateCalcButton" >Due Date Calculator</a>
+</div>
+<a href="HelpfulLinks.html" class="HelpLinkButton" >Helpful Links</a>
         <h1>Baby Registries</h1>
     <div class = "center">
         <img src="buybuyBABY.png" alt ="BuyBuyBABY" id = "BuyBuyBaby" width="300" length="400">
@@ -210,7 +263,7 @@
 <h5>Next Steps</h5>
 
     <div class="row">
-                <div class="col-sm">
+                <div class="col-lg-1">
                     <p id = "words">By Trimester</p>
                     <div class="Center">
                     <a href="NextSteps.html#FirTri" class="NextSteps">First Trimester</a>
@@ -223,9 +276,9 @@
                     </div>
                 </div>
 
-                <div class="col-sm">
-                    <p>By Months</p>
-                    <p id = "words">By Trimester</p>
+                <div class="col-lg-1">
+                    <p id = "words1">By Months</p>
+
                     <div class="Center">
                         <a href="NextSteps.html#Month-1" class="NextSteps">First Month</a>
                     </div>
@@ -234,7 +287,7 @@
                     </div>
                     <div class="center">
                         <a href="NextSteps.html#Month-3" class="NextSteps">Third Month</a>
-                    </div><p id = "words">By Trimester</p>
+
                     <div class="Center">
                         <a href="NextSteps.html#Month-4" class="NextSteps">Forth Month</a>
                     </div>
@@ -243,7 +296,7 @@
                     </div>
                     <div class="center">
                         <a href="NextSteps.html#Month-6" class="NextSteps">Sixth Month</a>
-                    </div><p id = "words">By Trimester</p>
+
                     <div class="Center">
                         <a href="NextSteps.html#Month-7" class="NextSteps">Seventh Month</a>
                     </div>
@@ -253,14 +306,8 @@
                     <div class="center">
                         <a href="NextSteps.html#Month-9" class="NextSteps">Ninth Month</a>
                     </div>
-                </div>
-
-                <div class="col-sm">
-                    <p>By Weeks</p>
-                    <p></p>
-                    <a href="HelpfulLinks.html" class="HelpLinkButton" >Helpful Links</a>
-                </div>
-            </div>
+                    </div>
+                       
 
 </body>
 </html>
