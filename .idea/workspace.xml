@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="96ff66a0-959d-46cf-9940-7d758e3ba83e" name="Default Changelist" comment="Committing to save the function notes on the due date calculator page and adding the page for the Helpful links html.">
-      <change afterPath="$PROJECT_DIR$/../Final/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="96ff66a0-959d-46cf-9940-7d758e3ba83e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../cpst342f18hw1" beforeDir="false" afterPath="$PROJECT_DIR$/../cpst342f18hw1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cpst342f18hw2" beforeDir="false" afterPath="$PROJECT_DIR$/../cpst342f18hw2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cpst342f18hw4" beforeDir="false" afterPath="$PROJECT_DIR$/../cpst342f18hw4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cpst342f18hw5" beforeDir="false" afterPath="$PROJECT_DIR$/../cpst342f18hw5" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cpst342hw2-redo" beforeDir="false" afterPath="$PROJECT_DIR$/../cpst342hw2-redo" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextSteps.html" beforeDir="false" afterPath="$PROJECT_DIR$/NextSteps.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../quiz-work" beforeDir="false" afterPath="$PROJECT_DIR$/../quiz-work" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -52,19 +50,19 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="5784" />
+          <entry key="html" value="5806" />
           <entry key="json" value="4" />
           <entry key="md" value="2379" />
-          <entry key="txt" value="638" />
+          <entry key="txt" value="691" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="5" />
-          <entry key="HTML" value="5779" />
+          <entry key="HTML" value="5801" />
           <entry key="JSON" value="4" />
           <entry key="Markdown" value="2379" />
-          <entry key="PLAIN_TEXT" value="638" />
+          <entry key="PLAIN_TEXT" value="691" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
@@ -106,8 +104,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/NextSteps.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="366" column="33" lean-forward="true" selection-start-line="366" selection-start-column="33" selection-end-line="366" selection-end-column="33" />
+            <state relative-caret-position="698">
+              <caret line="715" column="10" selection-start-line="715" selection-start-column="10" selection-end-line="715" selection-end-column="10" />
               <folding>
                 <element signature="n#style#0;n#span#0;n#p#3;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#p#4;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -269,6 +267,11 @@
               <item name="cpstFinalProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="cpstFinalProject" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="cpstFinalProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cpstFinalProject" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -318,7 +321,7 @@
       <workItem from="1544481504443" duration="10711000" />
       <workItem from="1544535263770" duration="10773000" />
       <workItem from="1544551513502" duration="10639000" />
-      <workItem from="1544620030613" duration="9939000" />
+      <workItem from="1544620030613" duration="10193000" />
     </task>
     <task id="LOCAL-00001" summary="Making sure it is pushing to Heroku and to my Git Hub before I copy and paste the rest of the site over.">
       <created>1544482165243</created>
@@ -404,17 +407,23 @@
       <option name="project" value="LOCAL" />
       <updated>1544573017908</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Committing to save the function notes on the due date calculator page and adding the page for the Helpful links html.">
+      <created>1544649531334</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1544649531334</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42062000" />
+    <option name="totallyTimeSpent" value="42316000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2873" y="0" width="974" height="1047" extended-state="0" />
-    <editor active="true" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16452992" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.08113804" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -465,6 +474,7 @@
     <MESSAGE value="Commiting to sync README.md file so that it is informative." />
     <MESSAGE value="Committing because I saw that my image files were not being saved." />
     <MESSAGE value="Saving headers to my Helpful Links file and pushing before I add content to all pages and style to helpful links page." />
+    <MESSAGE value="Committing because I finished the Next Steps Page" />
     <MESSAGE value="Committing to save the function notes on the due date calculator page and adding the page for the Helpful links html." />
     <option name="LAST_COMMIT_MESSAGE" value="Committing to save the function notes on the due date calculator page and adding the page for the Helpful links html." />
   </component>
@@ -545,8 +555,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/NextSteps.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="366" column="33" lean-forward="true" selection-start-line="366" selection-start-column="33" selection-end-line="366" selection-end-column="33" />
+        <state relative-caret-position="698">
+          <caret line="715" column="10" selection-start-line="715" selection-start-column="10" selection-end-line="715" selection-end-column="10" />
           <folding>
             <element signature="n#style#0;n#span#0;n#p#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#p#4;n#body#0;n#html#0;n#!!top" expanded="true" />
